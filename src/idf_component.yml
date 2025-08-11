@@ -1,0 +1,4 @@
+## IDF Component Manager Manifest File
+dependencies:
+  tinyusb: "~0.18.0" # Automatically update bugfix releases. TinyUSB does not guarantee backward compatibility
+  espressif/led_strip: "2.5.0" # needed for that tinyusb version
